@@ -1,6 +1,11 @@
 body {
     font-family: 'Open Sans', arial;
 }
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
 .row:before, .row:after {
     display: table;
     line-height: 0;
@@ -88,4 +93,39 @@ body {
 .status-block.new {
     display: block;
     background: #4081d0;
+}
+
+/* slider */
+.custom-slider {
+    width: 1170px;
+    padding-top: 40px;
+}
+.slider__img-block {
+    position: relative;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.slider__img {
+    margin: 5px 0 0 5px;
+}
+.slider__desc {
+    overflow: hidden;
+    padding: 0 15px 0 0;
+}
+.slider-item__title {
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+.slider__item-status {
+    padding: 5px 7px;
+    font-size: 0.9em;
+}
+.slider-item__price {
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+.slider-item__desc {
+    font-size: 0.9em;
+    margin: 0 0 10px;
 }
